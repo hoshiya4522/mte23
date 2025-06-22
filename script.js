@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('data3.json')
+    fetch('data.json')
         .then(response => response.json())
         .then(data => { renderProfiles(data)})
         .catch(error => console.error('Error loading data:', error));
