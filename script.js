@@ -14,7 +14,7 @@ function renderProfiles(data) {
 
         const image = document.createElement('img');
         // Convert Google Drive link to direct image URL
-        image.src = `./images/${person.Roll}.jpg`;
+        image.src = `./images-optimized/${person.Roll}.jpg`;
 
         const info = document.createElement('div');
         info.className = 'profile-info';
